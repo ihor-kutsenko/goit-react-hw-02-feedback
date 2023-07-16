@@ -1,3 +1,11 @@
+.section {
+  margin-bottom: 15px;
+}
+
+
 .title {
   text-align: center;
+  margin-bottom: 15px;
+  color: rgb(14, 188, 78);
+  font-size: 32px;
 }

@@ -1,0 +1,13 @@
+:root {
+  --accent-color:#0ebc4e;
+  --secondary-color:#ff4500;
+  --background-color:#c6cfff;
+  --secondary-background-color: #a6b3ff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  padding: 10px;
+}
