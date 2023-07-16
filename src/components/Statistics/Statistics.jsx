@@ -3,7 +3,7 @@ import css from './Statistics.module.css';
 
 const Statistics = ({ good, neutral, bad, total = 0, positivePercentage = 0 }) => {
   return (
-    <div>
+    <div className={css.statistics_wrapper}>
       <p>Good: {good}</p>
       <p>Neutral: {neutral}</p>
       <p>Bad: {bad}</p>
