@@ -3,10 +3,14 @@
   width: 250px;
   margin: 0 auto;
   border-radius: 4px;
+  @media screen and (max-width: 768px) {
+      width: 150px;
+    }
 }
 
 .description {
-  display: flex;
+  /* display: flex; */
+  display: block;
   align-items: center;
   gap: 10px;
   margin: 5px;
@@ -17,6 +21,9 @@
   @media screen and (max-width: 768px) {
     color: #000;
   }
+ @media screen and (min-width: 768px) {
+  display: flex;
+    }
 }
 
 .svg {
