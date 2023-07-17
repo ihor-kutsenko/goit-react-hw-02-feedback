@@ -2,13 +2,13 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 240px;
+  width: 150px;
   height: 60px;
   font-weight: bold;
   font-size: 20px;
   text-transform: uppercase;
   gap: 10px;
-  margin: 0 20px;
+  margin: 0 10px;
   padding: 3px 4px;
   border: none;
   border-radius: 20px;
@@ -16,19 +16,24 @@
   box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
   transition: background-color 250ms linear scale 250ms linear;
 
-    background-color: var(--background-color);
-    color: var(--secondary-color);
-    cursor: pointer;
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  cursor: pointer;
 
-&:hover,
-&:focus {
-      background-color: var(--secondary-background-color);
-      color: var(--accent-color);
-      scale: 1.1;
+  &:hover,
+  &:focus {
+    background-color: var(--secondary-background-color);
+    color: var(--accent-color);
+    scale: 1.1;
+  }
+  &:active {
+    background-color: var(--secondary-background-color);
+    color: var(--accent-color);
+  }
+
+    @media screen and (min-width: 1280px) {
+      width: 240px;
+      height: 60px;
+      margin: 0 20px;
     }
-&:active {
-  background-color: var(--secondary-background-color);
-  color: var(--accent-color) ;
-}
-
 }

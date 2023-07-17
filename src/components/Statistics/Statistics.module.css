@@ -3,7 +3,6 @@
   width: 250px;
   margin: 0 auto;
   border-radius: 4px;
-  
 }
 
 .description {
@@ -14,9 +13,10 @@
   padding: 3px 4px;
   color: #fff;
   font-weight: 700;
-  
 
- 
+  @media screen and (max-width: 768px) {
+    color: #000;
+  }
 }
 
 .svg {
